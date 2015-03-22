@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.000000123031" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -57,30 +57,34 @@
 <library>
 <packages>
 <package name="LGA-24">
-<smd name="P$1" x="15.24" y="10.16" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$2" x="15.24" y="8.89" dx="1.27" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$3" x="15.24" y="7.62" dx="1.27" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$4" x="15.24" y="6.35" dx="1.27" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$5" x="15.24" y="5.08" dx="1.27" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$6" x="15.24" y="3.81" dx="1.27" dy="0.635" layer="1" rot="R270"/>
-<smd name="P$7" x="13.97" y="3.81" dx="1.27" dy="0.635" layer="1" rot="R270"/>
-<smd name="P$8" x="12.7" y="3.81" dx="1.27" dy="0.635" layer="1" rot="R270"/>
-<smd name="P$9" x="11.43" y="3.81" dx="1.27" dy="0.635" layer="1" rot="R270"/>
-<smd name="P$10" x="10.16" y="3.81" dx="1.27" dy="0.635" layer="1" rot="R270"/>
-<smd name="P$11" x="8.89" y="3.81" dx="1.27" dy="0.635" layer="1" rot="R270"/>
-<smd name="P$12" x="7.62" y="3.81" dx="1.27" dy="0.635" layer="1" rot="R270"/>
-<smd name="P$13" x="6.35" y="3.81" dx="1.27" dy="0.635" layer="1" rot="R270"/>
-<smd name="P$14" x="6.35" y="5.08" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$15" x="6.35" y="6.35" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$16" x="6.35" y="7.62" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$17" x="6.35" y="8.89" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$18" x="6.35" y="10.16" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$19" x="7.62" y="10.16" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$20" x="8.89" y="10.16" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$21" x="10.16" y="10.16" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$22" x="11.43" y="10.16" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$23" x="12.7" y="10.16" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$24" x="13.97" y="10.16" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$1" x="3.01" y="2.45" dx="0.23" dy="0.35" layer="1" rot="R180"/>
+<smd name="P$2" x="3.01" y="1.87" dx="0.23" dy="0.35" layer="1" rot="R270"/>
+<smd name="P$3" x="3.01" y="1.44" dx="0.23" dy="0.35" layer="1" rot="R270"/>
+<smd name="P$4" x="3.01" y="1.01" dx="0.23" dy="0.35" layer="1" rot="R270"/>
+<smd name="P$5" x="3.01" y="0.58" dx="0.23" dy="0.35" layer="1" rot="R270"/>
+<smd name="P$6" x="3.01" y="0" dx="0.23" dy="0.35" layer="1"/>
+<smd name="P$7" x="2.58" y="0" dx="0.23" dy="0.35" layer="1"/>
+<smd name="P$8" x="2.15" y="0" dx="0.23" dy="0.35" layer="1"/>
+<smd name="P$9" x="1.72" y="0" dx="0.23" dy="0.35" layer="1"/>
+<smd name="P$10" x="1.29" y="0" dx="0.23" dy="0.35" layer="1"/>
+<smd name="P$11" x="0.86" y="0" dx="0.23" dy="0.35" layer="1"/>
+<smd name="P$12" x="0.43" y="0" dx="0.23" dy="0.35" layer="1"/>
+<smd name="P$13" x="0" y="0" dx="0.23" dy="0.35" layer="1"/>
+<smd name="P$14" x="0" y="0.58" dx="0.23" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$15" x="0" y="1.01" dx="0.23" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$16" x="0" y="1.44" dx="0.23" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$17" x="0" y="1.87" dx="0.23" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$18" x="0" y="2.45" dx="0.23" dy="0.35" layer="1" rot="R180"/>
+<smd name="P$19" x="0.43" y="2.45" dx="0.23" dy="0.35" layer="1" rot="R180"/>
+<smd name="P$20" x="0.86" y="2.45" dx="0.23" dy="0.35" layer="1" rot="R180"/>
+<smd name="P$21" x="1.29" y="2.45" dx="0.23" dy="0.35" layer="1" rot="R180"/>
+<smd name="P$22" x="1.72" y="2.45" dx="0.23" dy="0.35" layer="1" rot="R180"/>
+<smd name="P$23" x="2.15" y="2.45" dx="0.23" dy="0.35" layer="1" rot="R180"/>
+<smd name="P$24" x="2.58" y="2.45" dx="0.23" dy="0.35" layer="1" rot="R180"/>
+<wire x1="-0.245" y1="2.725" x2="3.255" y2="2.725" width="0.03" layer="21"/>
+<wire x1="3.255" y1="2.725" x2="3.255" y2="-0.275" width="0.03" layer="21"/>
+<wire x1="3.255" y1="-0.275" x2="-0.245" y2="-0.275" width="0.03" layer="21"/>
+<wire x1="-0.245" y1="-0.275" x2="-0.245" y2="2.725" width="0.03" layer="21"/>
 </package>
 </packages>
 <symbols>
